@@ -1,0 +1,46 @@
+:root {
+  /* Color System */
+  --color-primary-600: #4F46E5;
+  --color-primary-500: #6366F1;
+  --color-primary-100: #E0E7FF;
+  
+  --color-neutral-900: #0F1115;
+  --color-neutral-700: #374151;
+  --color-neutral-500: #6B7280;
+  --color-neutral-200: #E5E7EB;
+  --color-neutral-50: #F9FAFB;
+  --color-white: #FFFFFF;
+
+  --color-status-received: #6B7280;
+  --color-status-diagnosed: #3B82F6;
+  --color-status-in-progress: #F59E0B;
+  --color-status-awaiting-parts: #EF4444;
+  --color-status-ready: #10B981;
+  --color-status-delivered: #8B5CF6;
+  
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-info: #3B82F6;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.10);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.dark {
+  --color-neutral-900: #0F1115;
+  --color-neutral-700: #374151;
+  --color-neutral-500: #9CA3AF;
+  --color-neutral-200: #262A31;
+  --color-neutral-50: #0B0D10;
+  --color-primary-600: #818CF8;
+}
